@@ -3,6 +3,8 @@
 # ----------------------------------------------
 
 name: HW-GH-Actions
+env:
+  APPLICATION_NAME: "MyHelloWorld"
 
 # Controls when the workflow will run
 on:
@@ -28,6 +30,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: print hello
-        run: echo Hello, world!
+        run: |
+          echo "Hello, world!"
+          echo "APP name ${{ env.APPLICATION_NAME }}"
 
      
