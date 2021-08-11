@@ -35,7 +35,7 @@ jobs:
           echo "APP name ${{ env.APPLICATION_NAME }}"
           
           
-  my_hello_world:
+  my_hello_world_actions:
 
     runs-on: ubuntu-latest
 
@@ -50,7 +50,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
     - name: Execute hello.py
-      run: python3 hello.py
+      run: python hello.py
 
 
      
