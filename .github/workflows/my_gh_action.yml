@@ -33,10 +33,9 @@ jobs:
         run: |
           echo "Hello, world!"
           echo "APP name ${{ env.APPLICATION_NAME }}"
-          aws --version
           
           
-  build:
+  my_hello_world:
 
     runs-on: ubuntu-latest
 
@@ -53,6 +52,6 @@ jobs:
     - name: Watch site
       run: |
         pwd
-        python hello.py     
+        python3 hello.py     
 
      
