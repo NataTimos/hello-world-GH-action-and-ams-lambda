@@ -1,6 +1,7 @@
-import json
+# import json
 
 
-def hello(event, context):
-    print("hi!")
-    return "hello-world"
+# def hello(event, context):
+#     print("hi!")
+#     return "hello-world"
+print('hello WORLD')
