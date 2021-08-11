@@ -52,7 +52,7 @@ jobs:
         pip install requests
     - name: Watch site
       run: |
-        cd hello-world-GH-action-and-ams-lambda
+      #cd hello-world-GH-action-and-a ms-lambda
         pwd
         python hello.py     
 
